@@ -1,0 +1,5 @@
+#!/bin/sh
+
+filename=$1
+
+/root/.formatchange/fltow/run $filename
