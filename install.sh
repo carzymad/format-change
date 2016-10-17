@@ -13,4 +13,14 @@ cd ../fwtol
 make
 cp fwtol /usr/bin
 
+mkdir ~/.formatchange
+mkdir ~/.formatchange/fltow
+mkdir ~/.formatchange/fwtol
+
+cp run ~/.formatchange/fltow/
+cp ../fltow/run ~/.formatchange/fwtol/
+
+
+
+
 
